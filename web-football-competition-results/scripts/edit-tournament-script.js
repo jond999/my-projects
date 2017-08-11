@@ -1,6 +1,6 @@
 $(document).ready(function() {	
 	$("#home").click(function()  {
-		document.location.href = './index.html';
+		document.location.href = './index.php';
 	});
 
 	$("div.overview").hide();

@@ -4,7 +4,7 @@ $(document).ready(function() {
 	});
 
 	$("#home").click(function() {
-		document.location.href = './index.html';
+		document.location.href = './index.php';
 	});	
 
 	var data = $("<div id='data'></div>");

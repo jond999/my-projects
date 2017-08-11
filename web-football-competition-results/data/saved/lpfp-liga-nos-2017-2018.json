@@ -140,7 +140,7 @@
 					"id": 7,
 					"home": "FC Porto",
 					"away": "Estoril Praia",
-					"goals_home": 0,
+					"goals_home": 4,
 					"goals_away": 0,
 					"date": "09/08/17",
 					"time": "19:00"
@@ -149,8 +149,8 @@
 					"id": 8,
 					"home": "Benfica",
 					"away": "Braga",
-					"goals_home": 0,
-					"goals_away": 0,
+					"goals_home": 3,
+					"goals_away": 1,
 					"date": "09/08/17",
 					"time": "21:00"
 				},
@@ -158,8 +158,8 @@
 					"id": 9,
 					"home": "V. Guimarães",
 					"away": "Chaves",
-					"goals_home": 0,
-					"goals_away": 0,
+					"goals_home": 3,
+					"goals_away": 1,
 					"date": "10/08/17",
 					"time": "21:00"
 				}

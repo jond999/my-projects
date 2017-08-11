@@ -1,6 +1,6 @@
 $(document).ready(function() {		
 	$("#back").click(function() {
-		document.location.href = './choose-teams.html';
+		document.location.href = './choose-teams.php';
 	});
 
 	$("#home").click(function() {

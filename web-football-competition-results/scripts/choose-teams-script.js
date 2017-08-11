@@ -1,7 +1,7 @@
 
 $(document).ready(function() {	
 	$("#back").click(function() {
-		document.location.href = './create-tournament.html';
+		document.location.href = './create-tournament.php';
 	});
 
 	$("#home").click(function() {
@@ -67,7 +67,7 @@ $(document).ready(function() {
 				$("#info").text("Teams selected sucessfully!");
 
 				$("#next").click(function() {
-					document.location.href = './define-matches.html';	
+					document.location.href = './define-matches.php';	
 				});				
 			});
 		}

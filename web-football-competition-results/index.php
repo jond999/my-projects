@@ -1,3 +1,7 @@
+<?php
+	include "functions.php";
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -6,14 +10,49 @@
 	</head>
 
 	<body>		
-		<button><a href="create-tournament.html">Create Tournament</a></button>
+		<button id="create">Create Tournament</button>
 
 		<br><br>
 
-		<button><a href="edit-tournament.html">Edit Tournament</a></button>
+		<button id="edit">Edit Tournament</button>
+
+		<div id="edit-load">
+			<br>
+			
+			<?php choose_file_to_load("edit") ?>
+		</div>
 
 		<br><br>
 
-		<button><a href="matches.html">Simulate Tournament</a></button>
+		<button id="simulate">Simulate Tournament</button>
+
+		<div id="simulate-load">
+			<br>
+			
+			<?php choose_file_to_load("simulate") ?>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="./scripts/common.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {	
+				$("#edit-load").hide();
+				$("#simulate-load").hide();
+				
+				$("#create").click(function() {
+					document.location.href = './create-tournament.php';
+				});
+
+				$("#edit").click(function() {
+					$("#edit-load").toggle();
+					$("#simulate-load").hide();
+				});	
+
+				$("#simulate").click(function() {
+					$("#simulate-load").toggle();
+					$("#edit-load").hide();
+				});				
+			});			
+		</script>
 	</body>
 </html> 

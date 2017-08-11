@@ -1,3 +1,10 @@
+<?php
+	if(!file_put_contents("./data/data.json", "{}"))
+	{
+		echo "file not modified!<br><br>";
+	}
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>

@@ -1,3 +1,9 @@
+<?php
+		include "functions.php";
+		
+		receive_file_to_load();
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>

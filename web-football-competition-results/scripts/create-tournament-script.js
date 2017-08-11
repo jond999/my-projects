@@ -1,5 +1,5 @@
 $(document).ready(function() {	
-	$("#home").click(function()  {
+	$("#home").click(function() {
 		document.location.href = './index.php';
 	});
 
@@ -124,7 +124,7 @@ $(document).ready(function() {
 					$("h3").text("Competition created successfully!");
 
 					$("#next").click(function()  {
-						document.location.href = './choose-teams.html';
+						document.location.href = './choose-teams.php';
 					});
 				}
 			});

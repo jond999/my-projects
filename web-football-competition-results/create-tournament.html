@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Create Championship (1)</title>
+		<meta charset="UTF-8">
+	</head>
+
+	<body>		
+		<button id="home">Home</button> 
+		<button id="save">Save</button>
+		<button id="next" disabled>Next</button>
+
+		<h1>Create a competition</h1>
+		<h3></h3>
+
+		<div id="competition">
+			Competition: <input type="text" name="competition-name">
+		</div>
+		
+		<br><br>
+		
+		<div id="format">
+			Format:<br>
+			<input type="radio" name="format" value="1" checked>League<br>
+			<input type="radio" name="format" value="2">Elimination Stage<br> 
+			<input type="radio" name="format" value="3">Group Stage + Elimination Stage 
+		</div>
+		
+		<br><br> 
+		
+		<div id="num-teams">
+			Number of teams: <input type="number" name="num-teams" min="2" max="30">
+		</div>
+
+		<div id="num-rounds">
+			Number of rounds: <input type="number" name="num-rounds" min="1" max="3">
+		</div>
+
+		<div id="num-fixtures">
+			Number of fixtures:
+		</div>				
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="./scripts/common.js"></script>
+		<script src="./scripts/create-tournament-script.js"></script>
+	</body>
+</html> 

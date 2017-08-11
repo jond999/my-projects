@@ -1,0 +1,358 @@
+{
+	"competition": "LPFP - Liga NOS - 2017/2018",
+	"num_teams": 18,
+	"teams": [
+		{
+			"id": 1,
+			"name": "Benfica"
+		},
+		{
+			"id": 2,
+			"name": "FC Porto"
+		},
+		{
+			"id": 3,
+			"name": "Sporting"
+		},
+		{
+			"id": 4,
+			"name": "V. Guimarães"
+		},
+		{
+			"id": 5,
+			"name": "Braga"
+		},
+		{
+			"id": 6,
+			"name": "Marítimo"
+		},
+		{
+			"id": 7,
+			"name": "Rio Ave"
+		},
+		{
+			"id": 8,
+			"name": "Feirense"
+		},
+		{
+			"id": 9,
+			"name": "Boavista"
+		},
+		{
+			"id": 10,
+			"name": "Estoril Praia"
+		},
+		{
+			"id": 11,
+			"name": "Chaves"
+		},
+		{
+			"id": 12,
+			"name": "V. Setúbal"
+		},
+		{
+			"id": 13,
+			"name": "Paços de Ferreira"
+		},
+		{
+			"id": 14,
+			"name": "Belenenses"
+		},
+		{
+			"id": 15,
+			"name": "Moreirense"
+		},
+		{
+			"id": 16,
+			"name": "Tondela"
+		},
+		{
+			"id": 17,
+			"name": "Portimonense"
+		},
+		{
+			"id": 18,
+			"name": "Desportivo das Aves"
+		}
+	],
+	"num_rounds": 2,
+	"num_fixtures": 34,
+	"calendar": [
+		{
+			"round": 1,
+			"fixture": 1,
+			"matches": [
+				{
+					"id": 1,
+					"home": "Desportivo das Aves",
+					"away": "Sporting",
+					"date": "06/08/07",
+					"time": "18:00"
+				},
+				{
+					"id": 2,
+					"home": "V. Setúbal",
+					"away": "Moreirense",
+					"date": "06/08/07",
+					"time": "20:15"
+				},
+				{
+					"id": 3,
+					"home": "Portimonense",
+					"away": "Boavista",
+					"date": "07/08/07",
+					"time": "17:00"
+				},
+				{
+					"id": 4,
+					"home": "Feirense",
+					"away": "Tondela",
+					"date": "07/08/07",
+					"time": "19:00"
+				},
+				{
+					"id": 5,
+					"home": "Rio Ave",
+					"away": "Belenenses",
+					"date": "07/08/07",
+					"time": "21:00"
+				},
+				{
+					"id": 6,
+					"home": "Marítimo",
+					"away": "Paços de Ferreira",
+					"date": "08/08/07",
+					"time": "16:00"
+				},
+				{
+					"id": 7,
+					"home": "FC Porto",
+					"away": "Estoril Praia",
+					"date": "09/08/07",
+					"time": "19:00"
+				},
+				{
+					"id": 8,
+					"home": "Benfica",
+					"away": "Braga",
+					"date": "09/08/07",
+					"time": "21:00"
+				},
+				{
+					"id": 9,
+					"home": "V. Guimarães",
+					"away": "Chaves",
+					"date": "10/08/07",
+					"time": "21:00"
+				}
+			]
+		},
+		{
+			"round": 1,
+			"fixture": 2,
+			"matches": [
+				{
+					"id": 1,
+					"home": "Sporting",
+					"away": "V. Setúbal",
+					"date": "11/08/07",
+					"time": "20:30"
+				},
+				{
+					"id": 2,
+					"home": "Moreirense",
+					"away": "Feirense",
+					"date": "12/08/07",
+					"time": "16:00"
+				},
+				{
+					"id": 3,
+					"home": "Belenenses",
+					"away": "Marítimo",
+					"date": "12/08/07",
+					"time": "18:15"
+				},
+				{
+					"id": 4,
+					"home": "Boavista",
+					"away": "Rio Ave",
+					"date": "12/08/07",
+					"time": "20:30"
+				},
+				{
+					"id": 5,
+					"home": "Paços de Ferreira",
+					"away": "Desportivo das Aves",
+					"date": "13/08/07",
+					"time": "16:00"
+				},
+				{
+					"id": 6,
+					"home": "Braga",
+					"away": "Portimonense",
+					"date": "13/08/07",
+					"time": "18:00"
+				},
+				{
+					"id": 7,
+					"home": "Tondela",
+					"away": "FC Porto",
+					"date": "13/08/07",
+					"time": "20:15"
+				},
+				{
+					"id": 8,
+					"home": "Estoril Praia",
+					"away": "V. Guimarães",
+					"date": "14/08/07",
+					"time": "19:00"
+				},
+				{
+					"id": 9,
+					"home": "Chaves",
+					"away": "Benfica",
+					"date": "14/08/07",
+					"time": "21:00"
+				}
+			]
+		},
+		{
+			"round": 1,
+			"fixture": 3,
+			"matches": [
+				{
+					"id": 1,
+					"home": "Rio Ave",
+					"away": "Portimonense",
+					"date": "18/08/17",
+					"time": "20:30"
+				},
+				{
+					"id": 2,
+					"home": "Tondela",
+					"away": "Estoril Praia",
+					"date": "19/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 3,
+					"home": "V. Guimarães",
+					"away": "Sporting",
+					"date": "19/08/17",
+					"time": "18:15"
+				},
+				{
+					"id": 4,
+					"home": "Benfica",
+					"away": "Belenenses",
+					"date": "19/08/17",
+					"time": "20:30"
+				},
+				{
+					"id": 5,
+					"home": "V. Setúbal",
+					"away": "Chaves",
+					"date": "20/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 6,
+					"home": "FC Porto",
+					"away": "Moreirense",
+					"date": "20/08/17",
+					"time": "18:00"
+				},
+				{
+					"id": 7,
+					"home": "Desportivo das Aves",
+					"away": "Braga",
+					"date": "20/08/17",
+					"time": "20:00"
+				},
+				{
+					"id": 8,
+					"home": "Marítimo",
+					"away": "Boavista",
+					"date": "20/08/17",
+					"time": "20:15"
+				},
+				{
+					"id": 9,
+					"home": "Paços de Ferreira",
+					"away": "Feirense",
+					"date": "21/08/17",
+					"time": "20:00"
+				}
+			]
+		},
+		{
+			"round": 1,
+			"fixture": 4,
+			"matches": [
+				{
+					"id": 1,
+					"home": "Belenenses",
+					"away": "V. Setúbal",
+					"date": "25/08/17",
+					"time": "20:30"
+				},
+				{
+					"id": 2,
+					"home": "Paços de Ferreira",
+					"away": "V. Guimarães",
+					"date": "26/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 3,
+					"home": "Moreirense",
+					"away": "Tondela",
+					"date": "26/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 4,
+					"home": "Chaves",
+					"away": "Feirense",
+					"date": "26/08/17",
+					"time": "18:15"
+				},
+				{
+					"id": 5,
+					"home": "Rio Ave",
+					"away": "Benfica",
+					"date": "26/08/17",
+					"time": "20:30"
+				},
+				{
+					"id": 6,
+					"home": "Boavista",
+					"away": "Desportivo das Aves",
+					"date": "27/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 7,
+					"home": "Sporting",
+					"away": "Estoril Praia",
+					"date": "27/08/17",
+					"time": "18:00"
+				},
+				{
+					"id": 8,
+					"home": "Portimonense",
+					"away": "Marítimo",
+					"date": "27/08/17",
+					"time": "20:00"
+				},
+				{
+					"id": 9,
+					"home": "Braga",
+					"away": "FC Porto",
+					"date": "27/08/17",
+					"time": "20:15"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,430 @@
+{
+	"num_teams": 18,
+	"num_rounds": 2,
+	"num_fixtures": 34,
+	"competition": "LPFP - Liga NOS - 2017/2018",
+	"teams": [
+		{
+			"id": 1,
+			"name": "Benfica"
+		},
+		{
+			"id": 2,
+			"name": "FC Porto"
+		},
+		{
+			"id": 3,
+			"name": "Sporting"
+		},
+		{
+			"id": 4,
+			"name": "V. Guimarães"
+		},
+		{
+			"id": 5,
+			"name": "Braga"
+		},
+		{
+			"id": 6,
+			"name": "Marítimo"
+		},
+		{
+			"id": 7,
+			"name": "Rio Ave"
+		},
+		{
+			"id": 8,
+			"name": "Feirense"
+		},
+		{
+			"id": 9,
+			"name": "Boavista"
+		},
+		{
+			"id": 10,
+			"name": "Estoril Praia"
+		},
+		{
+			"id": 11,
+			"name": "Chaves"
+		},
+		{
+			"id": 12,
+			"name": "V. Setúbal"
+		},
+		{
+			"id": 13,
+			"name": "Paços de Ferreira"
+		},
+		{
+			"id": 14,
+			"name": "Belenenses"
+		},
+		{
+			"id": 15,
+			"name": "Moreirense"
+		},
+		{
+			"id": 16,
+			"name": "Tondela"
+		},
+		{
+			"id": 17,
+			"name": "Portimonense"
+		},
+		{
+			"id": 18,
+			"name": "Desportivo das Aves"
+		}
+	],
+	"calendar": [
+		{
+			"round": 1,
+			"fixture": 1,
+			"matches": [
+				{
+					"id": 1,
+					"home": "Desportivo das Aves",
+					"away": "Sporting",
+					"goals_home": 0,
+					"goals_away": 2,
+					"date": "06/08/17",
+					"time": "18:00"
+				},
+				{
+					"id": 2,
+					"home": "V. Setúbal",
+					"away": "Moreirense",
+					"goals_home": 1,
+					"goals_away": 1,
+					"date": "06/08/17",
+					"time": "20:15"
+				},
+				{
+					"id": 3,
+					"home": "Portimonense",
+					"away": "Boavista",
+					"goals_home": 2,
+					"goals_away": 1,
+					"date": "17/08/17",
+					"time": "17:00"
+				},
+				{
+					"id": 4,
+					"home": "Feirense",
+					"away": "Tondela",
+					"goals_home": 1,
+					"goals_away": 1,
+					"date": "17/08/17",
+					"time": "19:00"
+				},
+				{
+					"id": 5,
+					"home": "Rio Ave",
+					"away": "Belenenses",
+					"goals_home": 1,
+					"goals_away": 0,
+					"date": "17/08/17",
+					"time": "21:00"
+				},
+				{
+					"id": 6,
+					"home": "Marítimo",
+					"away": "Paços de Ferreira",
+					"goals_home": 1,
+					"goals_away": 0,
+					"date": "08/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 7,
+					"home": "FC Porto",
+					"away": "Estoril Praia",
+					"goals_home": 4,
+					"goals_away": 0,
+					"date": "09/08/17",
+					"time": "19:00"
+				},
+				{
+					"id": 8,
+					"home": "Benfica",
+					"away": "Braga",
+					"goals_home": 3,
+					"goals_away": 1,
+					"date": "09/08/17",
+					"time": "21:00"
+				},
+				{
+					"id": 9,
+					"home": "V. Guimarães",
+					"away": "Chaves",
+					"goals_home": 3,
+					"goals_away": 1,
+					"date": "10/08/17",
+					"time": "21:00"
+				}
+			]
+		},
+		{
+			"round": 1,
+			"fixture": 2,
+			"matches": [
+				{
+					"id": 1,
+					"home": "Sporting",
+					"away": "V. Setúbal",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "11/08/17",
+					"time": "20:30"
+				},
+				{
+					"id": 2,
+					"home": "Moreirense",
+					"away": "Feirense",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "12/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 3,
+					"home": "Belenenses",
+					"away": "Marítimo",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "12/08/17",
+					"time": "18:15"
+				},
+				{
+					"id": 4,
+					"home": "Boavista",
+					"away": "Rio Ave",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "12/08/17",
+					"time": "20:30"
+				},
+				{
+					"id": 5,
+					"home": "Paços de Ferreira",
+					"away": "Desportivo das Aves",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "13/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 6,
+					"home": "Braga",
+					"away": "Portimonense",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "13/08/17",
+					"time": "18:00"
+				},
+				{
+					"id": 7,
+					"home": "Tondela",
+					"away": "FC Porto",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "13/08/17",
+					"time": "20:15"
+				},
+				{
+					"id": 8,
+					"home": "Estoril Praia",
+					"away": "V. Guimarães",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "14/08/17",
+					"time": "19:00"
+				},
+				{
+					"id": 9,
+					"home": "Chaves",
+					"away": "Benfica",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "14/08/17",
+					"time": "21:00"
+				}
+			]
+		},
+		{
+			"round": 1,
+			"fixture": 3,
+			"matches": [
+				{
+					"id": 1,
+					"home": "Rio Ave",
+					"away": "Portimonense",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "18/08/17",
+					"time": "20:30"
+				},
+				{
+					"id": 2,
+					"home": "Tondela",
+					"away": "Estoril Praia",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "19/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 3,
+					"home": "V. Guimarães",
+					"away": "Sporting",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "19/08/17",
+					"time": "18:15"
+				},
+				{
+					"id": 4,
+					"home": "Benfica",
+					"away": "Belenenses",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "19/08/17",
+					"time": "20:30"
+				},
+				{
+					"id": 5,
+					"home": "V. Setúbal",
+					"away": "Chaves",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "20/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 6,
+					"home": "FC Porto",
+					"away": "Moreirense",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "20/08/17",
+					"time": "18:00"
+				},
+				{
+					"id": 7,
+					"home": "Desportivo das Aves",
+					"away": "Braga",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "20/08/17",
+					"time": "20:00"
+				},
+				{
+					"id": 8,
+					"home": "Marítimo",
+					"away": "Boavista",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "20/08/17",
+					"time": "20:15"
+				},
+				{
+					"id": 9,
+					"home": "Paços de Ferreira",
+					"away": "Feirense",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "21/08/17",
+					"time": "20:00"
+				}
+			]
+		},
+		{
+			"round": 1,
+			"fixture": 4,
+			"matches": [
+				{
+					"id": 1,
+					"home": "Belenenses",
+					"away": "V. Setúbal",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "25/08/17",
+					"time": "20:30"
+				},
+				{
+					"id": 2,
+					"home": "Paços de Ferreira",
+					"away": "V. Guimarães",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "26/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 3,
+					"home": "Moreirense",
+					"away": "Tondela",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "26/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 4,
+					"home": "Chaves",
+					"away": "Feirense",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "26/08/17",
+					"time": "18:15"
+				},
+				{
+					"id": 5,
+					"home": "Rio Ave",
+					"away": "Benfica",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "26/08/17",
+					"time": "20:30"
+				},
+				{
+					"id": 6,
+					"home": "Boavista",
+					"away": "Desportivo das Aves",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "27/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 7,
+					"home": "Sporting",
+					"away": "Estoril Praia",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "27/08/17",
+					"time": "18:00"
+				},
+				{
+					"id": 8,
+					"home": "Portimonense",
+					"away": "Marítimo",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "27/08/17",
+					"time": "20:00"
+				},
+				{
+					"id": 9,
+					"home": "Braga",
+					"away": "FC Porto",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "27/08/17",
+					"time": "20:15"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,282 @@
+{
+	"num_teams": 20,
+	"num_rounds": 2,
+	"num_fixtures": 38,
+	"competition": "LPFP - Ledman Liga Pro - 2017/2018",
+	"teams": [
+		{
+			"id": 1,
+			"name": "Arouca"
+		},
+		{
+			"id": 2,
+			"name": "Nacional"
+		},
+		{
+			"id": 3,
+			"name": "U. Madeira"
+		},
+		{
+			"id": 4,
+			"name": "Benfica B"
+		},
+		{
+			"id": 5,
+			"name": "Penafiel"
+		},
+		{
+			"id": 6,
+			"name": "Académica"
+		},
+		{
+			"id": 7,
+			"name": "Braga B"
+		},
+		{
+			"id": 8,
+			"name": "Sp. Covilhã"
+		},
+		{
+			"id": 9,
+			"name": "Varzim"
+		},
+		{
+			"id": 10,
+			"name": "Santa Clara"
+		},
+		{
+			"id": 11,
+			"name": "V. Guimarães B"
+		},
+		{
+			"id": 12,
+			"name": "FC Porto B"
+		},
+		{
+			"id": 13,
+			"name": "Gil Vicente"
+		},
+		{
+			"id": 14,
+			"name": "Sporting B"
+		},
+		{
+			"id": 15,
+			"name": "Famalicão"
+		},
+		{
+			"id": 16,
+			"name": "Cova da Piedade"
+		},
+		{
+			"id": 17,
+			"name": "Ac. Viseu"
+		},
+		{
+			"id": 18,
+			"name": "Leixões"
+		},
+		{
+			"id": 19,
+			"name": "Real SC"
+		},
+		{
+			"id": 20,
+			"name": "Oliveirense"
+		}
+	],
+	"calendar": [
+		{
+			"round": 1,
+			"fixture": 1,
+			"matches": [
+				{
+					"id": 1,
+					"home": "Sp. Covilhã",
+					"away": "Sporting B",
+					"goals_home": 1,
+					"goals_away": 2,
+					"date": "06/08/17",
+					"time": "11:15"
+				},
+				{
+					"id": 2,
+					"home": "Braga B",
+					"away": "U. Madeira",
+					"goals_home": 1,
+					"goals_away": 1,
+					"date": "06/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 3,
+					"home": "Nacional",
+					"away": "Penafiel",
+					"goals_home": 1,
+					"goals_away": 1,
+					"date": "06/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 4,
+					"home": "Cova da Piedade",
+					"away": "Santa Clara",
+					"goals_home": 1,
+					"goals_away": 2,
+					"date": "06/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 5,
+					"home": "Ac. Viseu",
+					"away": "Académica",
+					"goals_home": 2,
+					"goals_away": 1,
+					"date": "06/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 6,
+					"home": "Famalicão",
+					"away": "Arouca",
+					"goals_home": 2,
+					"goals_away": 0,
+					"date": "06/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 7,
+					"home": "FC Porto B",
+					"away": "Gil Vicente",
+					"goals_home": 1,
+					"goals_away": 2,
+					"date": "06/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 8,
+					"home": "Real SC",
+					"away": "Leixões",
+					"goals_home": 4,
+					"goals_away": 1,
+					"date": "06/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 9,
+					"home": "Varzim",
+					"away": "V. Guimarães B",
+					"goals_home": 3,
+					"goals_away": 0,
+					"date": "06/08/17",
+					"time": "17:00"
+				},
+				{
+					"id": 10,
+					"home": "Oliveirense",
+					"away": "Benfica B",
+					"goals_home": 2,
+					"goals_away": 1,
+					"date": "08/08/17",
+					"time": "19:00"
+				}
+			]
+		},
+		{
+			"round": 1,
+			"fixture": 2,
+			"matches": [
+				{
+					"id": 1,
+					"home": "Académica",
+					"away": "Braga B",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "12/08/17",
+					"time": "11:15"
+				},
+				{
+					"id": 2,
+					"home": "Sporting B",
+					"away": "Ac. Viseu",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "12/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 3,
+					"home": "Arouca",
+					"away": "FC Porto B",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "13/08/17",
+					"time": "11:15"
+				},
+				{
+					"id": 4,
+					"home": "Santa Clara",
+					"away": "Sp. Covilhã",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "13/08/17",
+					"time": "15:00"
+				},
+				{
+					"id": 5,
+					"home": "Gil Vicente",
+					"away": "Cova da Piedade",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "13/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 6,
+					"home": "Leixões",
+					"away": "Varzim",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "13/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 7,
+					"home": "U. Madeira",
+					"away": "Real SC",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "13/08/17",
+					"time": "16:00"
+				},
+				{
+					"id": 8,
+					"home": "Benfica B",
+					"away": "Nacional",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "13/08/17",
+					"time": "17:00"
+				},
+				{
+					"id": 9,
+					"home": "V. Guimarães B",
+					"away": "Oliveirense",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "13/08/17",
+					"time": "17:00"
+				},
+				{
+					"id": 10,
+					"home": "Penafiel",
+					"away": "Famalicão",
+					"goals_home": 0,
+					"goals_away": 0,
+					"date": "13/08/17",
+					"time": "17:00"
+				}
+			]
+		}
+	]
+}

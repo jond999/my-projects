@@ -1,4 +1,7 @@
 $(document).ready(function() {	
+	var save_file_name = $("h6").html();
+	$("h6").hide();
+
 	$("#home").click(function()  {
 		document.location.href = './index.php';
 	});
@@ -15,8 +18,6 @@ $(document).ready(function() {
 		$("#save").attr("disabled", true);
 		$("#next").attr("disabled", true);
 	});	
-
-	//$("div.edit").hide();
 
 	var data = $("<div id='data'></div>");
 	
@@ -62,6 +63,8 @@ $(document).ready(function() {
 				{
 					string += ("id: " + arrMatches[j]["id"] + "<br>");
 					string += ("home: " + arrMatches[j]["home"] + "<br>");
+					string += ("goals home: " + arrMatches[j]["goals_home"] + "<br>");
+					string += ("goals away: " + arrMatches[j]["goals_away"] + "<br>");
 					string += ("away: " + arrMatches[j]["away"] + "<br>");
 					string += ("date: " + arrMatches[j]["date"] + "<br>");
 					string += ("time: " + arrMatches[j]["time"] + "<br><br>");
@@ -100,8 +103,7 @@ $(document).ready(function() {
 
 				$(".team").css("width", "150px");
 		
-				fixture = obj["calendar"].length + 1;
-				
+				fixture = obj["calendar"].length + 1;				
 				$("#fixture").html("<h3>Fixture " + fixture + "</h3>");
 				
 				round = Math.ceil(fixture / (num_fixtures / num_rounds));
@@ -176,10 +178,10 @@ $(document).ready(function() {
 					obj["calendar"][len - 1]["matches"].push(match);
 				}
 					
-				save(obj);
+				save(obj, "");
+				save(obj, save_file_name);
 
 				saved_fixtures++;
-				console.log("save: " + saved_fixtures);
 
 				$("#save").attr("disabled", true);
 				$("#next").attr("disabled", false);
@@ -249,8 +251,6 @@ $(document).ready(function() {
 					$("#status").html("Calendar not fully implemented! (" + saved_fixtures + " of " + num_fixtures + " # " + Math.round((saved_fixtures / num_fixtures) * 100) + "%)");
 					$("#status").css("color", "#FF0000");
 				}
-
-				console.log("next: " + saved_fixtures);							
 			});						
 
 			if(saved_fixtures == num_fixtures)
@@ -269,8 +269,6 @@ $(document).ready(function() {
 				$("#status").html("Calendar not fully implemented! (" + saved_fixtures + " of " + num_fixtures + " # " + Math.round((saved_fixtures / num_fixtures) * 100) + "%)");
 				$("#status").css("color", "#FF0000");
 			}
-
-			//console.log("out: " + saved_fixtures);
 		}
 
 		if(statusTxt == "error")

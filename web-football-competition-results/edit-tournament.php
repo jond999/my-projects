@@ -1,7 +1,7 @@
 <?php
 	include "functions.php";
 
-	receive_file_to_load();
+	receive_file_to_op(1);
 ?>
 
 <!DOCTYPE html>

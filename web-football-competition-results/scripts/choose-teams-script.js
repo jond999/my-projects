@@ -58,7 +58,7 @@ $(document).ready(function() {
 					obj["teams"][i]["name"] = arr[i];	
 				}
 				
-				save(obj);
+				save(obj, "");
 
 				$("#next").attr("disabled", false);
 				

@@ -26,16 +26,30 @@
 		return $equal;
 	}
 
-	function load($file) {
+	function op($id_op, $file) {
 		$thefile = './data/data.json';
 		
 		if(!files_are_equal($file, $thefile))
 		{
-			if(!copy($file, $thefile))
+			// load
+			if($id_op === 1)
 			{
-				echo "loading " . substr($file, 13) . "' failed...<br><br>";
+				if(!copy($file, $thefile))
+				{
+					echo "loading " . substr($file, 13) . "' failed...<br><br>";
 
-				return;
+					return;
+				}
+			}
+			// copy
+			else if($id_op === 2)
+			{
+				if(!copy($thefile, $file))
+				{
+					echo "copying " . substr($thefile, 13) . "' failed...<br><br>";
+
+					return;
+				}
 			}			
 		}
 	}
@@ -69,15 +83,26 @@
 		print("</form>");			
 	}
 
-	function receive_file_to_load()
+	function receive_file_to_op($id_op)
 	{
-		if(isset($_POST['file'])) 
+		if($id_op == 1)
 		{
-			$dir = './data/saved/';
+			if(isset($_POST['file'])) 
+			{
+				$dir = './data/saved/';
 
-			$file = $dir . $_POST['file'];
-
-			load($file);
+				$file_used = $dir . $_POST['file'];
+				
+				echo("<h6>" . $file_used . "</h6>");
+			}
 		}
+		else if($id_op == 2)
+		{
+			op(2, $file_used);
+
+			return;
+		}		
+
+		op($id_op, $file_used);	
 	}
 ?>

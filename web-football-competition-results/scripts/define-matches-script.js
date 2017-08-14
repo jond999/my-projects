@@ -110,7 +110,7 @@ $(document).ready(function() {
 					obj["calendar"][len - 1]["matches"].push(match);
 				}
 					
-				save(obj);
+				save(obj, "");
 
 				$("#save").attr("disabled", true);
 				$("#next").attr("disabled", false);

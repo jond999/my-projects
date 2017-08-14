@@ -1,4 +1,8 @@
+
 $(document).ready(function() {		
+	var save_file_name = $("h6").html();
+	$("h6").hide();
+	
 	$("#back").click(function() {
 		document.location.href = './index.php';
 	});
@@ -44,6 +48,7 @@ $(document).ready(function() {
 					if(count_fixtures == num_fixtures_allowed)
 					{
 						i = num_rounds;
+
 						break;
 					}							
 		  		}
@@ -55,7 +60,7 @@ $(document).ready(function() {
 		    {
 		    	var fixture = Math.floor(i / (num_teams / 2));
 		    	var match = Math.floor(i % (num_teams / 2));
-		    	
+
 		    	var selected = obj["calendar"][fixture]["matches"][match];
 
 		    	var home = selected["home"];
@@ -85,14 +90,13 @@ $(document).ready(function() {
 				index.push(selected_fixture);
 				index.push(selected_match);
 				index.push(0);
-				
+
 				map.push(index);
-				console.log("home: map's length: " + map.length);
 			});
 
 			$(".goals-away>input").change(function() {
 				updates++;
-				
+
 				var index = [];
 				var selected_fixture_string = $(this).parent().parent().parent().parent().prev().html();
 				var selected_fixture_string_length = selected_fixture_string.length;
@@ -104,32 +108,30 @@ $(document).ready(function() {
 				index.push(1);
 
 				map.push(index);
-				console.log("away: map's length: " + map.length);
 			});			
-
 
 			$("#save").click(function() {
 				while(map.length != 0)
 				{
-					var x = map.shift();
-					console.log("map's length: " + map.length);
-					x[0] = x[0] + 1;
-					x[1] = x[1] + 1;
+					var match = map.shift();
 
-					var index = (x[1] + (x[0] - 1) * 2) - 1;
+					match[0] = match[0] + 1;
+					match[1] = match[1] + 1;
+					
+					var index = (match[1] + (match[0] - 1) * (num_teams / 2)) - 1;
 
-					if(x[2] == 0)
+					if(match[2] == 0)
 					{	
- 						obj["calendar"][x[0] - 1]["matches"][x[1] - 1]["goals_home"] = Number($($(".goals-home>input")[index]).val());	
-
+ 						obj["calendar"][match[0] - 1]["matches"][match[1] - 1]["goals_home"] = Number($($(".goals-home>input")[index]).val());	
 					}
-					else
+					else if(match[2] == 1)
 					{
-						obj["calendar"][x[0] - 1]["matches"][x[1] - 1]["goals_away"] = Number($($(".goals-away>input")[index]).val());
+						obj["calendar"][match[0] - 1]["matches"][match[1] - 1]["goals_away"] = Number($($(".goals-away>input")[index]).val());
 					}
 				}
 
-				save(obj);
+				save(obj, ""); // save into default file
+				save(obj, save_file_name); // save into specific file inside saved directory
 			});		    
 		}
 
@@ -137,5 +139,5 @@ $(document).ready(function() {
 		{
 			console.log("ERROR!!!");
 		}
-	});	
+	});
 });

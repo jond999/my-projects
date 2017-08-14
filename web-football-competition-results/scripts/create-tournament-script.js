@@ -94,14 +94,6 @@ $(document).ready(function() {
 					$("#save").attr("disabled", true);
 					
 					num_teams = Number(num_teams);
-/*
-					console.log("num_rounds: " + (typeof num_rounds));
-					console.log("num_rounds: " + num_rounds);
-					console.log("num_fixtures: " + (typeof num_fixtures));
-					console.log("num_fixtures: " + num_fixtures);
-					console.log("num_teams: " + (typeof num_teams));
-					console.log("num_teams: " + num_teams);
-*/
 
 					obj["num_teams"] = num_teams;
 					
@@ -109,8 +101,7 @@ $(document).ready(function() {
 					
 					obj["num_fixtures"] = num_fixtures;
 
-					// save({}); // DANGER!!! DON'T TOUCH! ERASE DATA.JSON!
-					save(obj);
+					save(obj, "");
 					
 					$("#next").attr("disabled", false);
 

@@ -1,7 +1,9 @@
 const __NUM_TEAMS_MAX__ = 38;
 
-function save(obj)
+function save(obj, file)
 {
+	obj["file_name"] = file;
+
 	var data = JSON.stringify(obj, null, "\t");	
 
 	$.ajax( {

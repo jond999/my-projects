@@ -1,7 +1,22 @@
 <?php
 	$data = $_POST['data'];
-		
-	$file = "data.json";
+
+	$obj = json_decode($data);
+	
+	$file = $obj->file_name;
+	
+	if($file !== "")
+	{
+		$file = substr($obj->file_name, 7);	
+	}
+	else
+	{
+		$file = "data.json";
+	}
+	
+	unset($obj->file_name);
+	
+	$data = json_encode($obj, 128);
 
 	if(!file_exists($file))
 	{
@@ -34,5 +49,5 @@
 		return;
 	}
 
-	// echo $data;
+	echo $file;
 ?>
